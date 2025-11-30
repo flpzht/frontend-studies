@@ -1,0 +1,30 @@
+{
+  "name": "frontend-studies",
+  "version": "1.0.0",
+  "description": "Repositório para estudos práticos de Front-End (HTML, CSS, JS, React, TS).",
+  "scripts": {
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1",
+    "start-react": "vite",
+    "build-ts": "tsc"
+  },
+  "keywords": [
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
