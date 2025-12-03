@@ -28,14 +28,16 @@ Neste projeto, pude praticar conceitos importantes como:
 Para conseguir o efeito de gradiente no texto, utilizei a seguinte técnica:
 
 ```css
+
 .text-gradient {
   background: linear-gradient(var(--gradient-colors));
   background-clip: text;
   -webkit-background-clip: text; /* Compatibilidade com Webkit */
   color: transparent; /* Importante para o fundo aparecer */
 }
+```
 
-🚀 Como rodar o projeto
+## 🚀 Como rodar o projeto
 Clone este repositório (caso ainda não tenha feito):
 
 Bash
