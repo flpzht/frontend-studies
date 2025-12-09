@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #000000;
+    --secondary-color: #515151;
+    --third-color: #CCCCCC;
+    --search-bg: #f8f8f8;
+    --subscribe-bg: #cc0000;
+    --bg: #fff;
+    --font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg);
+    color: var(--primary-color);
+}
+header {
+    width: auto;
+    height: 56px;
+    background-color: var(--bg);
+    padding: 35px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    width: 146px;
+    height: 24px;
+    align-items: center;
+    gap: 16px;
+}
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.logo-img {
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+.header-center {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    width: 348px;
+    height: 40px;
+    border: 1px solid var(--third-color);
+    border-radius: 2px;
+    padding: 0 8px;
+    font-size: 14px;
+    outline: none;
+}
+.search-button {
+    width: 57px;
+    height: 40px;
+    border: 1px solid var(--third-color);
+    background-color: var(--search-bg);
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 24px;
+}
+.header-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main-content {
+    width: 952px;
+    height: 746px;
+    margin: 50px auto 0 75px;
+}
+iframe {
+    width: 952px;
+    height: 537px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.video-title {
+    width: 871px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: bold;
+    margin: 16px 0 8px 0;
+    color: var(--primary-color);
+}
+.video-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.video-actions {
+    width: 902px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+.channel-info {
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+.channel-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.channel-details {
+    width: 106px;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.channel-details h2 {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.channel-details span {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--secondary-color);
+}
+.subscribe-button {
+    width: 159px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--subscribe-bg);
+    border-radius: 20px;
+    border: none;
+}
+.subscribe-button:hover {
+    background-color: red;
+    text-emphasis-color: white;
+}
+.subscribe-button span {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+.like-button, .dislike-button, .share-button, .save-button {
+    width: 120px;
+    height: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background-color: transparent;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--secondary-color);
+}
+.action-icon {
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    cursor: pointer;
+}
+.like-button:hover, .dislike-button:hover, .share-button:hover, .save-button:hover {
+    filter: brightness(0.7);
+}
+.video-description {
+    width: 952px;
+    height: auto;
+    margin-top: 24px;
+}
+.video-description span {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+}
+.video-description span:hover {
+    text-decoration: underline;
+}
+.video-description p {
+    margin-top: 8px;
+    padding-bottom: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    color: var(--secondary-color);
+}
+aside {
+    width: 160px;
+    height: 938px;
+    position: absolute;
+    top: 84px;
+    left: 1052px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 16px;
+    overflow: visible;
+}
+.sidebar-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.recommended-video {
+    width: 160px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.recommended-thumbnail {
+    width: 160px;
+    height: 90px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.recommended-details {
+    width: 196px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.recommended-details .recommended-title {
+    width: 196px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: semi-bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.recommended-details .recommended-title:hover {
+    text-decoration: underline;
+}
+.recommended-details .recommended-channel {
+    width: 196px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--secondary-color);
+}
+.recommended-details .recommended-channel:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.recommended-details .recommended-views {
+    width: 196px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    top: 61px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--secondary-color);
+}
