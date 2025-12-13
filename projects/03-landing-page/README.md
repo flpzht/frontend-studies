@@ -65,6 +65,7 @@ Para garantir que o design do YouTube seja mantido em telas grandes com o máxim
 ## 📁 Estrutura do Projeto
 
 A estrutura de arquivos do projeto segue o padrão para separação de estilos (CSS) e arquivos estáticos (imagens):
+```
 .
 ├── assets/
 │   ├── css/
@@ -73,7 +74,7 @@ A estrutura de arquivos do projeto segue o padrão para separação de estilos (
 │       └── ... (ícones e miniaturas de vídeo)
 └── index.html
 └── README.md
-
+```
 ## 🛠️ Para Executar o Projeto
 
 1.  Baixe ou clone o repositório.
@@ -150,6 +151,7 @@ To ensure the YouTube design is maintained on large screens with a maximum of 4 
 ## 📁 Project Structure
 
 The project file structure follows the standard for separating styles (CSS) and static files (images):
+```
 .
 ├── assets/
 │   ├── css/
@@ -158,6 +160,7 @@ The project file structure follows the standard for separating styles (CSS) and 
 │       └── ... (icons and video thumbnails)
 ├── index.html
 └── README.md
+```
 
 ## 🛠️ How to Run the Project
 
