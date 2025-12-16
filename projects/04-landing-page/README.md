@@ -97,9 +97,8 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 ### Mobile
 <img src="assets/img/iPhone 13 Pro Max - 1.png" width="300" alt="Mobile View">
-
 ### Desktop
-<img src="frontend-studies\projects\04-landing-page\assets\img\Discord Home Page Desktop.png" width="600" alt="Desktop View">
+<img src="assets\img\Discord Home Page Desktop.png" width="600" alt="Desktop View">
 
 ## 🔗 Links Úteis
 
