@@ -2,7 +2,7 @@
 
 Projeto de recriação da landing page do Discord, desenvolvido como desafio de aprendizado com foco em **HTML5**, **CSS3** e **Design Responsivo**.
 
-![Discord Clone Preview](assets\img\Discord-Home-Page-Desktop.svg)
+![Discord Clone Preview](frontend-studies\projects\04-landing-page\assets\img\Discord-Home-Page-Desktop.png)
 
 ## 📋 Sobre o Projeto
 
