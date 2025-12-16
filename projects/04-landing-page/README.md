@@ -96,10 +96,10 @@ Durante o desenvolvimento deste projeto, pratiquei:
 ## 🖼️ Screenshots
 
 ### Mobile
-<img src="assets/img/mobile-screenshot.png" width="300" alt="Mobile View">
+<img src="assets/img/iPhone 13 Pro Max - 1.png" width="300" alt="Mobile View">
 
 ### Desktop
-<img src="assets/img/desktop-screenshot.png" width="600" alt="Desktop View">
+<img src="frontend-studies\projects\04-landing-page\assets\img\Discord Home Page Desktop.png" width="600" alt="Desktop View">
 
 ## 🔗 Links Úteis
 
@@ -110,8 +110,8 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 Desenvolvido com 💜 por **flpzht**
 
-- GitHub: [@flpzht](https://github.com/flpzht)
-- LinkedIn: [Seu Nome](https://linkedin.com/in/seu-perfil)
+- GitHub: [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=D4B56A)](https://github.com/flpzht)
+- LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=F2E9D0)](https://www.linkedin.com/in/felipecarvalhodesouzabarros/)
 
 ## 📝 Licença
 
