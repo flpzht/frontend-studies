@@ -95,10 +95,10 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 ## 🖼️ Screenshots
 
-### Mobile
-<img src="assets/img/iPhone 13 Pro Max - 1.png" width="300" alt="Mobile View">
-### Desktop
-<img src="assets\img\Discord Home Page Desktop.png" width="600" alt="Desktop View">
+| Mobile | Desktop |
+|--------|---------|
+| <img src="assets/img/iPhone 13 Pro Max - 1.png" width="300" alt="Mobile View"> | <img src="assets\img\Discord Home Page Desktop.png" width="600" alt="Desktop View">|
+
 
 ## 🔗 Links Úteis
 
